@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Calculator</title>
+    <script
+      src="https://kit.fontawesome.com/fe28fdb4bc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="container container-center">Stock Profit & Loss Calculator</h1>
+    <main class="container container-center">
+      <label class="input-label" for="initial-price">
+        Intial Price
+        <input
+          class="input"
+          type="text"
+          id="initial-price"
+          placeholder="Enter Initial Price Here"
+      /></label>
+      <label class="input-label" for="stocks-quantity">
+        Quantity of Stocks
+        <input
+          class="input"
+          type="text"
+          id="stocks-quantity"
+          placeholder="Enter the Number of Stocks bought"
+        />
+      </label>
+      <label class="input-label" for="current-price"
+        >Current Price
+        <input
+          class="input"
+          type="text"
+          id="current-price"
+          placeholder="Enter the Current Price of the stocks"
+      /></label>
+
+      <button id="submit-btn" class="btn-check">Tell Me!!</button>
+
+      <div id="output-box" class="output"></div>
+    </main>
+    <footer class="footer">
+      <ul class="list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/ANKIT9761"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/"><i class="fab fa-twitter fa-2x"></i></a>
+        </li>
+        <li class="list-item-inline">
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/ankit-kanyal-43460b169/"
+            ><i class="fab fa-linkedin-in fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
