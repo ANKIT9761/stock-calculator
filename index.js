@@ -6,7 +6,6 @@ var outputBox = document.querySelector("#output-box");
 
 submitBtn.addEventListener("click", submitHandler);
 
-console.log("inside");
 
 function submitHandler() {
   var ip = Number(initialPrice.value);
